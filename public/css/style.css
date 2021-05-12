@@ -1,0 +1,58 @@
+html, body{
+  background-image: radial-gradient(circle at bottom left, rgba(234,234,234, 0.87) 0%, rgba(234,234,234, 0.87) 6%,rgb(238, 238, 238) 6%, rgb(238, 238, 238) 15%,rgba(236,234,234, 0.64) 15%, rgba(236,234,234, 0.64) 47%,rgba(230,230,230, 0.37) 47%, rgba(230,230,230, 0.37) 54%,rgba(225,225,225, 0.19) 54%, rgba(225,225,225, 0.19) 56%,rgba(238,238,238, 0.06) 56%, rgba(238,238,238, 0.06) 90%,rgb(255,255,255) 90%, rgb(255,255,255) 100%);}
+
+.container,
+.container-fluid {
+  max-width: 1020px;
+}
+
+.card .card-title {
+color: #00ACFF;
+}
+
+h2 {
+  color: #00ACFF;
+}
+
+  .navbar {
+    background-image: radial-gradient(circle at center right, rgb(118, 205, 206) 0%, rgb(118, 205, 206) 5%,rgb(107, 195, 211) 5%, rgb(107, 195, 211) 10%,rgb(96, 184, 215) 10%, rgb(96, 184, 215) 15%,rgb(85, 174, 220) 15%, rgb(85, 174, 220) 20%,rgb(74, 164, 225) 20%, rgb(74, 164, 225) 25%,rgb(63, 154, 230) 25%, rgb(63, 154, 230) 30%,rgb(52, 143, 234) 30%, rgb(52, 143, 234) 35%,rgb(41, 133, 239) 35%, rgb(41, 133, 239) 100%);
+  }
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card i {
+  font-size: 34px;
+}
+
+.accordion {
+  max-width: 850px;
+}
+
+.accordion-header button {
+  font-size: 16px;
+}
+
+.footer {
+  /* background-color: #404444; */
+background-image: radial-gradient(circle at center right, rgb(118, 205, 206) 0%, rgb(118, 205, 206) 5%,rgb(107, 195, 211) 5%, rgb(107, 195, 211) 10%,rgb(96, 184, 215) 10%, rgb(96, 184, 215) 15%,rgb(85, 174, 220) 15%, rgb(85, 174, 220) 20%,rgb(74, 164, 225) 20%, rgb(74, 164, 225) 25%,rgb(63, 154, 230) 25%, rgb(63, 154, 230) 30%,rgb(52, 143, 234) 30%, rgb(52, 143, 234) 35%,rgb(41, 133, 239) 35%, rgb(41, 133, 239) 100%);
+}
+
+.footer .share-icons a {
+  font-size: 22px;
+}
+
+.footer .share-icons .bi-facebook {
+  color: #4483ff;
+}
+
+.footer .bi-instagram {
+  color: #e565e7;
+}
+
+.footer .bi-twitter {
+  color: #1da1f2;
+}
