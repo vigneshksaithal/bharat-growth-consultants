@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container">
-  <div class="row justify-content-center my-5">
+  <div class="row justify-content-center mt-3 mb-4">
     <div class="col text-center-sm">
       <img class="img-fluid" src="images/img_top.png" alt="" height="80%" />
     </div>
@@ -8,7 +8,7 @@
 
   <!-- CARDS -->
 
-  <h2 class="underline-text mt-2 mb-3">{{ .Site.Data.cards.header }}</h2>
+  <h2 class="underline-text mb-3">{{ .Site.Data.cards.header }}</h2>
   <div class="row mb-5">
     {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3}}
     <div class="col-sm d-flex align-content-stretch flex-wrap">
