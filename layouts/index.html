@@ -1,68 +1,76 @@
 {{ define "main" }}
 <div class="container">
-  <div
-    id="carouselExampleDark"
-    class="carousel carousel-dark slide my-5"
-    data-bs-ride="carousel"
-  >
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img
-          src="https://www.designsforvision.com/DVIimg/Sliders/PPE.png"
-          class="d-block w-100"
-          alt="..."
-        />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+  <div class="row">
+    <div class="col">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide my-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://www.designsforvision.com/DVIimg/Sliders/PPE.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExampleDark"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExampleDark"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
-  <h2 class="text-center mt-5 mb-3">{{ .Site.Data.cards.header }}</h2>
 
-  <!-- CARDS -->
+<!-- CARDS -->
+
+
+  <h1 class="underline-text mt-2 mb-3">{{ .Site.Data.cards.header }}</h1>
   <div class="row mb-5">
     {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3}}
     <div class="col-sm d-flex align-content-stretch flex-wrap">
@@ -75,6 +83,64 @@
       </div>
     </div>
     {{ end }} {{ end }}
+  </div>
+
+  <!-- PARAGRAPH -->
+  <div class="paragraph row my-5">
+    <div class="col">
+      <h2 class="paragraph-title underline-text my-3">{{ .Site.Data.paragraph.title }}</h2>
+      <p class="paragraph-text">{{ .Site.Data.paragraph.paragraph }}</p></div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="my-3">
+  <p>
+    <div class="text-center mb-5">
+      <button
+      class="btn btn-primary btn-lg"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapseExample"
+      aria-expanded="false"
+      aria-controls="collapseExample"
+    >
+      CONTACT US
+    </button>
+  </div>
+  </p>
+  <div class="collapse mb-5" id="collapseExample">
+    <div class="row justify-content-center">
+      <div class="col-sm-5">
+        <div class="card card-body">
+          
+            <h5 class="fs-5 my-3">Contact US</h5>
+            <!-- PHONE -->
+            <div class="my-2">
+              <i class="bi bi-phone me-2"></i>
+              <a href="tel:{{ .Site.Data.footer.contact_phone }}"
+                >{{ .Site.Data.footer.contact_phone }}</a
+              >
+            </div>
+            <!-- EMAIL -->
+            <div class="my-2">
+              <i class="bi bi-envelope me-2"></i>
+              <a href="mailto:{{ .Site.Data.footer.contact_email }}"
+                >{{ .Site.Data.footer.contact_email }}</a
+              >
+            </div>
+            <!-- ADDRESS -->
+            <div class="my-2">
+              <i class="bi bi-geo-alt me-2"></i>
+              <a href="{{ .Site.Data.footer.contact_address_link }}"
+                >{{ .Site.Data.footer.contact_address }}</a
+              >
+            </div>
+          
+        </div>
+      </div>
+      
+    </div>
   </div>
 </div>
 
