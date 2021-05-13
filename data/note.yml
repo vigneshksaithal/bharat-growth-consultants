@@ -1,5 +1,5 @@
 title: "NOTE:"
-text: "Measurement of Loupes (to Place order):"
+description: "While placing order please make sure that the measurement of Loupes:"
 lists:
   - title: "Magnification"
     points:
@@ -19,4 +19,4 @@ lists:
       - text: "Bifocal eye prescriptions"
   - title: "Intra Pupillary distance for Far vision with bifurcation between the right and left eye – usually measured by optometrist (In mm)"
   - title: "Working distance - Plane of the eye to the working field (in inches)"
-  - title: "Functional Pupillary distance which needs to be measured by Design for vision trained personal with the help of Engelmann Method measurement kit (In mm)."    
+  - title: "Functional Pupillary distance which needs to be measured by Design for vision trained personal with the help of Engelmann Method measurement kit (In mm)."

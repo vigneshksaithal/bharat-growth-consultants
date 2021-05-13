@@ -9,8 +9,11 @@
         class="d-inline-block align-text-top"
       />
     </a>
-    <button class="btn btn-light fw-bold">
+    <a
+      class="btn btn-success fw-bold"
+      href="{{ .Site.Data.navbar.button_link }}"
+    >
       {{ .Site.Data.navbar.button_text }}
-    </button>
+    </a>
   </div>
 </nav>

@@ -44,28 +44,37 @@
     </div>
   </div>
 
+  <div class="alert alert-warning border-2 border-warning ">
+    <h5>{{ .Site.Data.note.title }}</h5>
+    <p>{{ .Site.Data.note.description }}</p>
+    {{ range $index, $value := .Site.Data.note.lists }}
+    <b>{{ add $index 1 }}</b>.
+    <span class="fw-bold">{{ .title }}</span>
+    <ul>
+      {{ range .points }}
+      <li>{{ .text }}</li>
+      {{ end }}
+    </ul>
+
+    {{ end }}
+  </div>
+
   <!-- IMAGES -->
   <h2 class="underline-text mb-3">Images</h2>
   <div class="row mb-4">
     {{ range $index, $value := .Site.Data.images }} {{ if le $index 5 }}
     <div class="col-sm text-center">
-      <img class="img-fluid my-2 mx-2" src="{{ .src }}" height="350px" alt="" />
+      <img
+        class="img-fluid my-2 mx-2"
+        src="{{ .src }}"
+        height="350px"
+        alt=""
+        loading="lazy"
+      />
     </div>
     {{ end }}
   </div>
   {{ end }}
-
-  <div class="alert alert-warning border-warning">
-    {{ range $index, $value := .Site.Data.note.lists }}
-    <b>{{ $index }}</b>
-    <span class="h3">{{ .title }}</span>
-    <ol>
-      {{ range .points }}
-      <li>{{ .text }}</li>
-      {{ end }}
-    </ol>
-    {{ end }}
-  </div>
 </div>
 
 {{ end }}
