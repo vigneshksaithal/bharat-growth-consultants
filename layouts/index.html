@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="container">
-  <div class="row my-5">
-    <div class="col">
-      <img src="images/img_top.png" alt="" height="300px" />
+  <div class="row justify-content-center my-5">
+    <div class="col text-center-sm">
+      <img class="img-fluid" src="images/img_top.png" alt="" height="80%" />
     </div>
   </div>
 
@@ -47,15 +47,24 @@
   <!-- IMAGES -->
   <h2 class="underline-text mb-3">Images</h2>
   <div class="row mb-4">
-    {{ range .Site.Data.images }}
+    {{ range $index, $value := .Site.Data.images }} {{ if le $index 5 }}
     <div class="col-sm text-center">
-      <img class="my-2 mx-2" src="{{ .src }}" height="350px" alt="" />
+      <img class="img-fluid my-2 mx-2" src="{{ .src }}" height="350px" alt="" />
     </div>
     {{ end }}
   </div>
+  {{ end }}
 
   <div class="alert alert-warning border-warning">
-    {{ .Site.Data.note.text }}
+    {{ range $index, $value := .Site.Data.note.lists }}
+    <b>{{ $index }}</b>
+    <span class="h3">{{ .title }}</span>
+    <ol>
+      {{ range .points }}
+      <li>{{ .text }}</li>
+      {{ end }}
+    </ol>
+    {{ end }}
   </div>
 </div>
 
