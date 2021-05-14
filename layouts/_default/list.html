@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h2 class="underline-text mb-3">{{ .Site.Data.header }}</h2>
+<h2 class="underline-text my-3">{{ .Site.Data.header }}</h2>
 <div class="row mb-5">
   {{ .Params.vvv }} {{ range $index,$val := .Pages }} {{ if le $index 3}}
   <div class="col-sm d-flex align-content-stretch flex-wrap">
@@ -13,5 +13,19 @@
     </div>
   </div>
   {{ end }} {{ end }}
+</div>
+
+<!-- WHATSAPP BUTTON -->
+<div class="text-center my-5">
+  <h5 class="mb-3">Have any questions? Contact us now!</h5>
+  <a
+    class="btn whatsapp-btn btn-lg"
+    href="{{
+  .Site.Data.navbar.button_link
+  }}"
+  >
+    <i class="bi bi-whatsapp me-2"></i>
+    {{ .Site.Data.whatsapp_btn.button_text }}
+  </a>
 </div>
 {{ end }}

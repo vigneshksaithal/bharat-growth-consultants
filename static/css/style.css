@@ -50,6 +50,11 @@ body {
   max-width: 1020px;
 }
 
+.whatsapp-btn {
+  background-color: #25d366;
+  color: #fff;
+}
+
 .card .card-title {
   color: #00a3b4;
 }

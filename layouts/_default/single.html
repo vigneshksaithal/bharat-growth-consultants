@@ -1,6 +1,20 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1 class="mt-3">{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
 <br />
 <div class="containe">{{ .Content }}</div>
+
+<!-- WHATSAPP BUTTON -->
+<div class="text-center my-5">
+  <h5 class="mb-3">Have any questions? Contact us now!</h5>
+  <a
+    class="btn whatsapp-btn btn-lg"
+    href="{{
+    .Site.Data.navbar.button_link
+    }}"
+  >
+    <i class="bi bi-whatsapp me-2"></i>
+    {{ .Site.Data.whatsapp_btn.button_text }}
+  </a>
+</div>
 {{ end }}
