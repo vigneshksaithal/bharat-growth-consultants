@@ -12,11 +12,12 @@
   <div class="row mb-5">
     {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3}}
     <div class="col-sm d-flex align-content-stretch flex-wrap">
-      <div class="card flex-fill my-2">
+      <div class="card flex-fill mb-2">
         <img src="{{ .img }}" alt="" class="card-img-top" />
         <div class="card-body">
           <h3 class="card-title text-center mt-2">{{ .title }}</h3>
           <p class="short-description">{{ .short_description }}</p>
+          <a class="stretched-link" href="{{ .link }}"></a>
         </div>
       </div>
     </div>
@@ -24,9 +25,9 @@
   </div>
 
   <!-- PARAGRAPH -->
-  <div class="paragraph row my-5">
+  <div class="paragraph row mb-4">
     <div class="col">
-      <h2 class="paragraph-title underline-text my-3">
+      <h2 class="paragraph-title underline-text mb-3">
         {{ .Site.Data.paragraph.title }}
       </h2>
       <p class="paragraph-text">{{ .Site.Data.paragraph.paragraph }}</p>
@@ -44,7 +45,7 @@
     </div>
   </div>
 
-  <div class="alert alert-warning border-2 border-warning ">
+  <div class="alert alert-warning border-2 border-warning">
     <h5>{{ .Site.Data.note.title }}</h5>
     <p>{{ .Site.Data.note.description }}</p>
     {{ range $index, $value := .Site.Data.note.lists }}
@@ -64,13 +65,7 @@
   <div class="row mb-4">
     {{ range $index, $value := .Site.Data.images }} {{ if le $index 5 }}
     <div class="col-sm text-center">
-      <img
-        class="img-fluid m-2"
-        src="{{ .src }}"
-        height="350px"
-        alt=""
-        loading="lazy"
-      />
+      <img class="img-fluid m-2" src="{{ .src }}" alt="" loading="lazy" />
     </div>
     {{ end }}
   </div>
