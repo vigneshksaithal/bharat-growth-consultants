@@ -4,7 +4,7 @@ date: 2021-05-14T00:50:30+05:30
 draft: false
 
 image: 'https://www.designsforvision.com/Buttons/2014-Open/SL-NewHDi.png'
-link: 'hdi'
+link: '/hdi'
 ---
 
 ### NEW High Definition Imaging – HDi
