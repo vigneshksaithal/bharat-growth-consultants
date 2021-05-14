@@ -1,6 +1,9 @@
 ---
 title: 'Wireless HDi'
 
+short_description: 'Untethered, Lightweight and Portable, Designs for Visions patented LED designs provide neutral white adjustable LED illumination.
+See the new HDi series
+of fiber optic quality LEDs'
 image: 'https://www.designsforvision.com/Buttons/2014-Open/DL-WireLess.png'
 link: 'wireless-hdi'
 ---
@@ -9,7 +12,7 @@ link: 'wireless-hdi'
 
 LED DayLite® WireLess headlights are equipped with HDi's advanced photonic design providing uniform light distribution and 45% more light. (HDi US Patent 8,851,709)
 
-![](https://www.designsforvision.com/DVIimg/HDiCompare.png)
+!['img'](https://www.designsforvision.com/DVIimg/HDiCompare.png)
 
 #### LED DayLite®
 
@@ -27,7 +30,7 @@ Uniform light distribution with 45% more light
 
 ###### 34,000 lux intensity
 
-![](https://www.designsforvision.com/TodaysRDH/WLMini.png)
+![img](https://www.designsforvision.com/TodaysRDH/WLMini.png)
 
 **The LED DayLite® WireLess Mini HDi**, a self-contained totally cord-free headlight with HDi technology. The WireLess Mini HDi integrates with various platforms including your existing loupes, safety eyewear and future purchases.
 
@@ -56,7 +59,7 @@ RE46,463
 9,791,138
 10,132,483
 
-![](https://www.designsforvision.com/DentImg/Dent-WL-ON-OFF-600px.gif)
+![img](https://www.designsforvision.com/DentImg/Dent-WL-ON-OFF-600px.gif)
 
 The LED DayLite WirLess IR HDi produces 45,000 lux at high intensity and 33,000 lux at medium intensity with touch-free operation. The spot size will evenly illuminate the entire oral cavity.
 

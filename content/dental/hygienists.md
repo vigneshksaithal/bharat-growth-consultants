@@ -3,6 +3,7 @@ title: 'Hygienists'
 date: 2021-05-14T00:51:03+05:30
 draft: false
 
+short_description: 'Designs for Vision provides Hygienists with the Magnificaion essential to provide the best in patient care and the Ergonomic design to reduce neck and lower back pain.'
 image: '/images/dental/img3.jpg'
 link: 'hygienists'
 ---

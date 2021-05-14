@@ -3,6 +3,7 @@ title: 'Optics and Ergonomics'
 date: 2021-05-14T00:50:30+05:30
 draft: false
 
+short_description: 'See how Designs for Visions optical design makes the Visible Difference® and how our individually custom crafted product provides true ergonomics.'
 image: '/images/dental/img4.jpg'
 link: 'optics-and-ergonomics'
 ---

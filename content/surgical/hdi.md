@@ -3,8 +3,9 @@ title: 'HDi'
 date: 2021-05-14T00:50:30+05:30
 draft: false
 
+short_description: 'HDi technology has revolutionized LEDs in the OR with uniform light distribution and fiber optic quality light.'
 image: 'https://www.designsforvision.com/Buttons/2014-Open/SL-NewHDi.png'
-link: '/hdi'
+link: 'hdi'
 ---
 
 ### NEW High Definition Imaging – HDi
@@ -15,27 +16,27 @@ Introducing HDi's advanced photonic design providing uniform light distribution 
 
 ![alt text](https://www.designsforvision.com/DVIimg/CompareHDi-round-650.png 'Logo Title Text 1')
 
-### BRILLIANT
+##### BRILLIANT
 
 HDi's advanced photonic design provides 45% more light with an even field of illumination
 
-### MODULAR
+##### MODULAR
 
 The HDi Universal Power Pack recognizes and operates each HDi series headlight. Each HDi headlight can easily be moved to and from the magnification or headset you select for a particular procedure
 
-### FLEXIBLE
+##### FLEXIBLE
 
 The HDi series of LED DayLite headlights provide a wide range of illumination to choose from. Each modular light can be locked into a position coaxial to your line of sight.
 
-### PATENT PENDING OPTICAL DESIGN
+##### PATENT PENDING OPTICAL DESIGN
 
 45% More Light with an even field of illumination - enhancing detail and increasing depth of field
 
 Fiberoptic Quality Light with all the benefits of LEDs – lightweight, mobile, less expensive, less maintenance, provides illumination for thousands of hours!
 
-## HDi Universal Power Pack
+#### HDi Universal Power Pack
 
-#### Each HDi headlight comes with two universal power packs that recognize and operate each headlight in the entire HDi series
+###### Each HDi headlight comes with two universal power packs that recognize and operate each headlight in the entire HDi series
 
 ONE TOUCH operation
 

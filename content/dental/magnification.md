@@ -5,6 +5,7 @@ draft: false
 
 image: '/images/dental/img1.jpg'
 link: 'magnification'
+short_description: 'Designs for Vision is the trusted brand that dentists rely on for quality, reliability, and durability. Our Dental Telescopes provide TRUE magnification and ergonomics.'
 ---
 
 #### Standard Field Dental Telescopes

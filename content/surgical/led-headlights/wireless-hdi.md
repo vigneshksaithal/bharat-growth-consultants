@@ -1,5 +1,6 @@
 ---
 title: 'Wireless HDi'
+draft: false
 
 image: 'https://www.designsforvision.com/Buttons/2014-Open/DL-WireLess.png'
 link: 'wireless-hdi'
