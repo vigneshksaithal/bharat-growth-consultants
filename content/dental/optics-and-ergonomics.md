@@ -9,15 +9,13 @@ link: 'optics-and-ergonomics'
 
 ### Designed and Manufactured Thru-the-Lens (TTL)
 
-### Why Thru-the-Lens Magnification?
+##### Why Thru-the-Lens Magnification?
 
-Increases Field Size
+1. Increases Field Size
+2. Reduces Weight
+3. Eliminates Hardware that causes telescopes to come out of alignment
 
-Reduces Weight
-
-Eliminates Hardware that causes telescopes to come out of alignment
-
-### Why Designs for Vision’s Thru-the-Lens Magnification?
+##### Why Designs for Vision’s Thru-the-Lens Magnification?
 
 ![alt text](https://www.designsforvision.com/DVIimg/Sliders/VisDif6BB.png 'Logo Title Text 1')
 
@@ -25,9 +23,6 @@ Optically Aligned to YOUR Interpupillary Distance Measurement –
 ensures you are looking through the optical center of the telescopes,
 providing better vision
 
-Unique Shape allows for better intraoral vision
-
-Exclusively designed, engineered and manufactured
-
-Easier Peripheral Vision and Better Ergonomics due to telescopes
-lower position relative to eye
+1. Unique Shape allows for better intraoral vision
+2. Exclusively designed, engineered and manufactured
+3. Easier Peripheral Vision and Better Ergonomics due to telescopes lower position relative to eye
