@@ -4,7 +4,7 @@
   {{ .Params.vvv }} {{ range $index,$val := .Pages }} {{ if le $index 3}}
   <div class="col-sm d-flex align-content-stretch flex-wrap">
     <div class="card flex-fill mb-2">
-      <img src="{{ .Params.image }}" alt="" class="card-img-top" />
+      <img src="{{ .Params.image }}" alt="image" class="card-img-top" />
       <div class="card-body">
         <h4 class="card-title">{{ .Title }}</h4>
         <a class="stretched-link" href="{{ .Params.link }}"></a>
