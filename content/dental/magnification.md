@@ -1,7 +1,7 @@
 ---
 title: 'Magnification'
 date: 2021-05-14T00:51:42+05:30
-draft: true
+draft: false
 
 image: '/images/dental/img1.jpg'
 link: 'magnification'

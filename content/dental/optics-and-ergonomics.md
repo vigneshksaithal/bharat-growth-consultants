@@ -1,7 +1,7 @@
 ---
 title: 'Optics and Ergonomics'
 date: 2021-05-14T00:50:30+05:30
-draft: true
+draft: false
 
 image: '/images/dental/img4.jpg'
 link: 'optics-and-ergonomics'

@@ -1,7 +1,7 @@
 ---
 title: 'Hygienists'
 date: 2021-05-14T00:51:03+05:30
-draft: true
+draft: false
 
 image: '/images/dental/img3.jpg'
 link: 'hygienists'
