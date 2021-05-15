@@ -12,7 +12,7 @@
     <a
       class="btn whatsapp-btn btn-lg"
       href="{{
-    .Site.Data.navbar.button_link
+    .Site.Data.whatsapp_btn.button_link
     }}"
     >
       <i class="bi bi-whatsapp me-2"></i>
@@ -38,13 +38,13 @@
     {{ end }} {{ end }}
   </div>
 
-  <!-- PARAGRAPH -->
+  <!-- WHY US -->
   <div class="paragraph row mb-4">
     <div class="col">
       <h2 class="paragraph-title underline-text mb-3">
-        {{ .Site.Data.paragraph.title }}
+        {{ .Site.Data.why_us.title }}
       </h2>
-      <p class="paragraph-text">{{ .Site.Data.paragraph.paragraph }}</p>
+      <p class="paragraph-text">{{ .Site.Data.why_us.paragraph }}</p>
     </div>
   </div>
 
@@ -59,6 +59,7 @@
     </div>
   </div>
 
+  <!-- FEATURES -->
   <div class="alert alert-warning border-2 border-warning">
     <h5>{{ .Site.Data.note.title }}</h5>
     <p>{{ .Site.Data.note.description }}</p>
@@ -77,11 +78,10 @@
   <!-- IMAGES -->
   <h2 class="underline-text mb-3">Images</h2>
   <div class="row mb-4">
-    {{ range $index, $value := .Site.Data.images }} {{ if le $index 5 }}
-    <div class="col-sm text-center">
-      <img class="img-fluid m-2" src="{{ .src }}" alt="" loading="lazy" />
+    {{ range $index, $value := .Site.Data.images }}
+    <div class="col-sm">
+      <img class="img-fluid m-2" src="{{ .src }}" alt="images" loading="lazy" />
     </div>
-    {{ end }}
   </div>
   {{ end }}
 

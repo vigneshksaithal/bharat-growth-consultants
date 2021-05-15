@@ -4,7 +4,7 @@ title: 'Wireless HDi'
 short_description: 'Untethered, Lightweight and Portable, Designs for Visions patented LED designs provide neutral white adjustable LED illumination.
 See the new HDi series
 of fiber optic quality LEDs'
-image: 'https://www.designsforvision.com/Buttons/2014-Open/DL-WireLess.png'
+image: '/images/dental/led-headlights/wireless-hdi.png'
 link: 'wireless-hdi'
 ---
 
