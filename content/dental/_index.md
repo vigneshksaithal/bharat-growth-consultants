@@ -1,8 +1,5 @@
 ---
 title: 'd'
-
+show_list: false
 link: 'c'
 ---
-vkkbgzdfkb
-dgdfuhbluidfhd
-gdfgdlfhg

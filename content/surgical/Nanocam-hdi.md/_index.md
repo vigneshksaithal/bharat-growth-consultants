@@ -1,11 +1,9 @@
 ---
 title: 'Nano Cam Hdi'
 date: 2021-05-14T13:08:13+05:30
-draft: false
-
+show_list: true
 short_description: 'Document and Record from the Surgeons perspective with HiDef 1080p video capture.'
 image: 'https://designsforvision.com/Buttons/2014-Open/S1-NCam.jpg'
-link: 'nano-cam-hdi'
 ---
 
 ### NEW LED DayLite® NanoCam HDiTM

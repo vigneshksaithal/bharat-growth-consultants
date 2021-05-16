@@ -1,20 +1,13 @@
 ---
-title: 'HDi'
-date: 2021-05-14T00:50:30+05:30
-draft: false
-
-short_description: 'HDi technology has revolutionized LEDs in the OR with uniform light distribution and fiber optic quality light.'
-image: 'https://www.designsforvision.com/Buttons/2014-Open/SL-NewHDi.png'
-link: 'hdi'
+title: HDi-Advantage
+show_list: true
 ---
 
-### NEW High Definition Imaging – HDi
+##### NEW High Definition Imaging – HDi
 
 Introducing HDi's advanced photonic design providing uniform light distribution with fiber optic quality light. The entire LED DayLite series of headlights are now equipped with HDi technology providing 45% more light and increased modularity.
 
-![alt text](https://www.designsforvision.com/DVIimg/ThreeHDIs2PP.jpg 'Logo Title Text 1')
-
-![alt text](https://www.designsforvision.com/DVIimg/CompareHDi-round-650.png 'Logo Title Text 1')
+![img](https://www.designsforvision.com/DVIimg/ThreeHDIs2PP.jpg)
 
 ##### BRILLIANT
 
@@ -34,7 +27,7 @@ The HDi series of LED DayLite headlights provide a wide range of illumination to
 
 Fiberoptic Quality Light with all the benefits of LEDs – lightweight, mobile, less expensive, less maintenance, provides illumination for thousands of hours!
 
-#### HDi Universal Power Pack
+##### HDi Universal Power Pack
 
 ###### Each HDi headlight comes with two universal power packs that recognize and operate each headlight in the entire HDi series
 
@@ -49,3 +42,5 @@ FUEL GUAGE with visible charge status indicator
 User replaceable LI-ION BATTERY
 
 FULLY APPROVED to International standards (60601 Edition 3.1 and EMC 4th edition)
+
+![img](https://www.designsforvision.com/DVIimg/SmartLinkPP.jpg)

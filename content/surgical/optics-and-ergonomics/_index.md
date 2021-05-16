@@ -1,16 +1,13 @@
 ---
 title: 'Optics and Ergonomics'
-date: 2021-05-14T00:50:30+05:30
-draft: false
-
+show_list: true
+image: '/images/dental/optics-and-ergonomics.jpg'
 short_description: 'See how Designs for Visions optical design makes the Visible Difference® and how our individually custom crafted product provides true ergonomics.'
-image: '/images/dental/img4.jpg'
-link: 'optics-and-ergonomics'
 ---
 
 ### Designed and Manufactured Thru-the-Lens (TTL)
 
-##### Why Thru-the-Lens Magnification?
+#### Why Thru-the-Lens Magnification?
 
 1. Increases Field Size
 2. Reduces Weight

@@ -1,30 +1,72 @@
 {{ define "main" }}
-<div class="row mb-5">
-  {{ range .Pages }}
-  <div class="col-sm d-flex align-content-stretch flex-wrap mt-4">
-    <div class="card flex-fill mb-2">
-      <img src="{{ .Params.image }}" alt="image" class="card-img-top" />
-      <div class="card-body">
-        <h4 class="card-title">{{ .Title }}</h4>
-        <a class="stretched-link" href="{{ .Params.link }}"></a>
-        <p>{{ .Params.short_description }}</p>
-      </div>
+
+<!-- LIST NAVBAR -->
+{{ if eq .Params.show_list true }}
+<nav class="list-navbar navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Home</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {{ range .CurrentSection.Pages }}
+        <li class="nav-item">
+          <a href="{{ .URL }}" class="nav-link text-light">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
     </div>
   </div>
-  {{ end }}
-</div>
+</nav>
+{{ end }}
 
-<!-- WHATSAPP BUTTON -->
-<div class="text-center my-5">
-  <h5 class="mb-3">Have any questions? Contact us now!</h5>
-  <a
-    class="btn whatsapp-btn btn-lg"
-    href="{{
-  .Site.Data.whatsapp_btn.button_link
-  }}"
-  >
-    <i class="bi bi-whatsapp me-2"></i>
-    {{ .Site.Data.whatsapp_btn.button_text }}
-  </a>
+<div class="container">
+  <!-- CARD -->
+  <div class="row mb-3">
+    {{ if not (.Params.show_list) }} {{ range .CurrentSection.Pages }}
+
+    <div class="col-sm d-flex align-content-stretch flex-wrap mt-4">
+      <div class="card flex-fill mb-2">
+        <img src="{{ .Params.image }}" alt="image" class="card-img-top" />
+        <div class="card-body">
+          <h4 class="card-title">{{ .Title }}</h4>
+          <a class="stretched-link" href="{{ .URL }}"></a>
+          <p>{{ .Params.short_description }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }} {{ end }}
+  </div>
+
+  {{ if .Params.show_list }}
+  <h2 class="text-secondary mt-1 mb-3">{{ .Title }}</h2>
+  {{ end }} {{ if .Content }}
+  <div class="card">
+    <div class="card-body">{{ .Content }}</div>
+  </div>
+  {{ end }}
+
+  <!-- WHATSAPP BUTTON -->
+  <div class="text-center my-5">
+    <h5 class="mb-3">Have any questions? Contact us now!</h5>
+    <a
+      class="btn btn-primary border-0 whatsapp-btn btn-lg"
+      href="{{
+    .Site.Data.whatsapp_btn.button_link
+    }}"
+    >
+      <i class="bi bi-whatsapp me-2"></i>
+      {{ .Site.Data.whatsapp_btn.button_text }}
+    </a>
+  </div>
 </div>
 {{ end }}
