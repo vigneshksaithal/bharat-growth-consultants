@@ -3,6 +3,8 @@ title: 'New Panoramic Loupes'
 show_list: true
 ---
 
+[![img](https://www.designsforvision.com/DentImg/PanoReality.png)](https://www.designsforvision.com/Reality/PanoLoupesFirstLook_Web.pdf)
+
 #### See Beyond Expanded Field Loupes
 
 ![img](https://www.designsforvision.com/DentImg/Pano4_5x.png)
@@ -37,3 +39,7 @@ available to cover extra wide panoramic field of view
 #### 45 Day Free Trial
 
 ![img](https://www.designsforvision.com/DentImg/PanoCircle.png)
+
+**Read the review:**
+
+[![img](https://www.designsforvision.com/Reality/FirstLook2019.png)](https://www.designsforvision.com/Reality/PanoLoupesFirstLook_Web.pdf)

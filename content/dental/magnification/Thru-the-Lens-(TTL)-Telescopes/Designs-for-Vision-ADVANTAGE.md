@@ -28,3 +28,5 @@ for Easier Peripheral Viewing
 Custom manufactured to YOUR individual measurements (not pre-fabricated off the shelf), providing Real World Ergonomics.
 
 Hear what dental speaker and consultant, Dianne Watterson says about the Designs for Vision advantage on her Instrument and Sharpening DVD.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LpSl-TgLF_A/0.jpg)](https://www.youtube.com/watch?v=LpSl-TgLF_A)

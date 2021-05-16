@@ -3,7 +3,7 @@ title: Micro 2.5x Scopes
 show_list: true
 ---
 
-![Micro 2.5x Scopes](https://www.designsforvision.com/DentImg/2014DentMag/D-Micro2-5.jpg)
+![Micro 2.5x Scopes](/images/dental/magnification/Micro2.5x-Scopes/D-Micro2-5.jpg)
 
 ##### 23% Smaller, 36% Lighter
 
