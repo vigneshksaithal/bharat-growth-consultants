@@ -10,4 +10,6 @@ Designs for Vision's Precision Coated Magnification not only improves your visio
 
 **Read Abstracts of Clinical Studies:**
 
-Effect of magnification loupes on dental hygiene student posture –JP Maillet
+[Effect of magnification loupes on dental hygiene student posture –JP Maillet](https://cats.uthscsa.edu/found_cats_view2.php?id=2477)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2vFs5mWxQ9M/0.jpg)](https://www.youtube.com/watch?v=2vFs5mWxQ9M)

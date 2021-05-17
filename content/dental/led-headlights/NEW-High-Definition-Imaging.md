@@ -28,3 +28,9 @@ Clips onto your existing loupes. Multiple WireLess and Corded models to suit you
 ![img](https://www.designsforvision.com/DVIimg/HDiCompare.png)
 
 ![img](https://www.designsforvision.com/DentImg/IRpair-Dent.png)
+
+###### NEW Infra-Red Touch-Free Operation
+
+The NEW LED DayLight Micro IR HDi and WireLess IR HDi headlights are now equipped with Infra-Red (IR) for touch-free operation with the wave of a hand.
+
+![img](https://www.designsforvision.com/DentImg/IR-ON-OFF.gif)

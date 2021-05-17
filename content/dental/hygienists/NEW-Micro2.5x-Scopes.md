@@ -5,6 +5,8 @@ show_list: true
 
 ![Micro 2.5x Scopes](https://www.designsforvision.com/DentImg/2014DentMag/D-Micro2-5.jpg)
 
+![img](https://www.designsforvision.com/DentImg/2014HygieneMag/Micro2-5.jpg)
+
 ##### 23% Smaller, 36% Lighter
 
 allowing for increased peripheral vision and lightweight comfort

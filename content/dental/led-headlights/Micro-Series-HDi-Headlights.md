@@ -56,3 +56,35 @@ with up to 10 hour run time per pack and low battery indication
 
 RE46,463
 10,667,357
+
+##### Increase Your Run Time with
+
+###### LED DayLite® UltraMini HDi
+
+![img](https://www.designsforvision.com/DVIimg/UM-HDi.png)
+
+![img](https://www.designsforvision.com/DentImg/TwoCellPP.png)
+
+##### Lightweight Modular Design
+
+clips onto your existing loupes
+
+##### Intuitive Response Option Available
+
+with hands-free opteration to eliminate
+cross contamination
+
+##### Lightweight and Powerful
+
+55,000 lux high intensity
+30,000 lux medium intensity
+
+##### Up to 17 hrs of runtime
+
+utilizing two cell power pack
+
+![img](https://www.designsforvision.com/DVIimg/PanoramicSpot.png)
+
+##### Panoramic Spot Available
+
+to cover panoramic loupes wide field of view

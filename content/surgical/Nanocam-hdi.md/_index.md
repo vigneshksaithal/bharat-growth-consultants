@@ -29,6 +29,23 @@ HIPAA compliance and 24/7 support
 
 ![alt text](https://www.designsforvision.com/DVIimg/NanoCamLight.png 'Logo Title Text 1')
 
+##### TOTALLY MODULAR SYSTEM
+
+![img](https://www.designsforvision.com/DVIimg/NanoCamModularity.png)
+
+##### NEW DBR SOFTWARE
+
+Document Broadcast and Record
+with the all NEW DBR software:
+
+- Stable and intuitive to use
+
+- True Color Rendition
+
+- HIPAA Compliant
+
+- 24/7 Support
+
 ### SPECIFICATIONS
 
 **Camera**

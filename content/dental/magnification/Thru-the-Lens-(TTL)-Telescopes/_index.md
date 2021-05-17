@@ -5,13 +5,13 @@ show_list: true
 
 ##### Why Thru-the-Lens Magnification?
 
-Increases Field Size
+###### Increases Field Size
 
-##### Reduces Weight
+###### Reduces Weight
 
-Eliminates Hardware that causes telescopes to come out of alignment
+###### Eliminates Hardware that causes telescopes to come out of alignment
 
-##### Why Designs for Vision’s Thru-the-Lens Magnification?
+###### Why Designs for Vision’s Thru-the-Lens Magnification?
 
 ![img](https://www.designsforvision.com/DVIimg/Sliders/VisDif6BB.png)
 

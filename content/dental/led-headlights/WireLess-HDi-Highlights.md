@@ -1,12 +1,10 @@
 ---
-title: 'Wireless HDi'
+title: 'Wireless HDi Highlights'
 show_list: true
-
 short_description: 'Untethered, Lightweight and Portable, Designs for Visions patented LED designs provide neutral white adjustable LED illumination.
 See the new HDi series
 of fiber optic quality LEDs'
 image: '/images/dental/led-headlights/wireless-hdi.png'
-link: 'wireless-hdi'
 ---
 
 #### WireLess HDi Headlights
@@ -63,6 +61,8 @@ RE46,463
 ![img](https://www.designsforvision.com/DentImg/Dent-WL-ON-OFF-600px.gif)
 
 The LED DayLite WirLess IR HDi produces 45,000 lux at high intensity and 33,000 lux at medium intensity with touch-free operation. The spot size will evenly illuminate the entire oral cavity.
+
+![img](https://www.designsforvision.com/DentImg/WirelessCharging.png)
 
 WireLess Headlight lithiu-ion power pod
 The LED DayLite WireLess comes complete with three power pods. The charging cradle allows you to independently re-charge two power pods at the same time and shows the progress of each charge cycle.
