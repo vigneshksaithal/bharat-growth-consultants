@@ -49,6 +49,10 @@ body {
   max-width: 968px;
 }
 
+h5 {
+  color: #075aff;
+}
+
 .list-navbar {
   background-color: #009aea;
 }
