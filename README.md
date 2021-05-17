@@ -7,7 +7,7 @@ To add new product follow these steps:
 - Then click on "Add file" button on top. Then click "Create New file".
 - Name the file(e.g. product-name.md)
 - Make sure to add **.md** at the end of file name. 
-For e.g. if file name is NEW-Air-Loupes then name the file as NEW-Air-Loupes **.md**
+For e.g. if file name is NEW-Air-Loupes then name the file as NEW-Air-Loupes.md
 - Then paste the below code on the file
 ```
 ---
