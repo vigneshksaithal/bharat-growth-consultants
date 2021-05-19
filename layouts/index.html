@@ -6,27 +6,13 @@
     </div>
   </div>
 
-  <!-- WHATSAPP BUTTON -->
-  <div class="text-center my-5">
-    <h5 class="mb-3">Have any questions? Contact us now!</h5>
-    <a
-      class="btn btn-primary border-0 whatsapp-btn btn-lg"
-      href="{{
-    .Site.Data.whatsapp_btn.button_link
-    }}"
-    >
-      <i class="bi bi-whatsapp me-2"></i>
-      {{ .Site.Data.whatsapp_btn.button_text }}
-    </a>
-  </div>
-
   <!-- CARDS -->
   <h2 class="underline-text mb-3">{{ .Site.Data.cards.header }}</h2>
-  <div class="row mb-5">
+  <div class="row mb-3">
     {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3}}
     <div class="col-sm d-flex align-content-stretch flex-wrap">
-      <div class="card flex-fill mb-2">
-        <img src="{{ .img }}" alt="" class="card-img-top" />
+      <div class="card flex-fill mb-3">
+        <img src="{{ .img }}" alt="img" class="card-img-top" />
         <div class="card-body">
           <h3 class="card-title text-center mt-2">{{ .title }}</h3>
           <p class="short-description">{{ .short_description }}</p>
@@ -36,53 +22,6 @@
     </div>
     {{ end }} {{ end }}
   </div>
-
-  <!-- WHY US -->
-  <div class="paragraph row mb-4">
-    <div class="col">
-      <h2 class="paragraph-title underline-text mb-3">
-        {{ .Site.Data.why_us.title }}
-      </h2>
-      <p class="paragraph-text">{{ .Site.Data.why_us.paragraph }}</p>
-    </div>
-  </div>
-
-  <div class="row features mb-5">
-    <div class="col">
-      <h2 class="underline-text mb-3">Features</h2>
-      {{ range $index, $value := .Site.Data.features }}
-      <div>
-        <span><i class="bi bi-arrow-right me-2"></i></span>{{ .feature }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-
-  <!-- FEATURES -->
-  <div class="alert alert-warning border-2 border-warning">
-    <h5>{{ .Site.Data.note.title }}</h5>
-    <p>{{ .Site.Data.note.description }}</p>
-    {{ range $index, $value := .Site.Data.note.lists }}
-    <b>{{ add $index 1 }}</b>.
-    <span class="fw-bold">{{ .title }}</span>
-    <ul>
-      {{ range .points }}
-      <li>{{ .text }}</li>
-      {{ end }}
-    </ul>
-
-    {{ end }}
-  </div>
-
-  <!-- IMAGES -->
-  <h2 class="underline-text mb-3">Images</h2>
-  <div class="row mb-4">
-    {{ range $index, $value := .Site.Data.images }}
-    <div class="col-sm">
-      <img class="img-fluid m-2" src="{{ .src }}" alt="images" loading="lazy" />
-    </div>
-  </div>
-  {{ end }}
 
   <!-- WHATSAPP BUTTON -->
   <div class="text-center my-5">
