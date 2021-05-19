@@ -1,7 +1,7 @@
 ---
 title: New Reveal
 show_list: true
-image: 
+image: 'https://www.designsforvision.com/Reveal/RevealWebHead800wht.png'
 ---
 
 ![img](https://www.designsforvision.com/Reveal/RevealWebHead800wht.png)

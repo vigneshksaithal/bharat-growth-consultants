@@ -46,4 +46,4 @@ Designs for Vision’s NEW REVEALTM FGS system combines blue excitation light wi
 - REVEALTM FGS EYEWEAR:
 - EN207 (Field of View Coverage only)
 
-[![]]
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/FbmMyOQ80LE/0.jpg)](https://www.youtube.com/watch?v=FbmMyOQ80LE)
