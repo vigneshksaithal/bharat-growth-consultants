@@ -49,6 +49,11 @@ body {
   max-width: 968px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 h5 {
   color: #2e4bf8;
 }

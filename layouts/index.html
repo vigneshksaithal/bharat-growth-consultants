@@ -9,7 +9,7 @@
   <!-- CARDS -->
   <h2 class="underline-text mb-3">{{ .Site.Data.cards.header }}</h2>
   <div class="row mb-3">
-    {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3}}
+    {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3 }}
     <div class="col-sm d-flex align-content-stretch flex-wrap">
       <div class="card flex-fill mb-3">
         <img src="{{ .img }}" alt="img" class="card-img-top" />
