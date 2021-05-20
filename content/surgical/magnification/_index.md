@@ -2,7 +2,7 @@
 title: 'Magnification'
 
 show_list: true
-image: '/images/dental/magnification.jpg'
+image: '/images/magnification.png'
 link: 'magnification'
 short_description: 'Designs for Vision is the trusted brand that dentists rely on for quality, reliability, and durability. Our Dental Telescopes provide TRUE magnification and ergonomics.'
 ---

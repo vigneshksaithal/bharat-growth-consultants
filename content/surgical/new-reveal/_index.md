@@ -4,9 +4,7 @@ show_list: true
 image: 'https://www.designsforvision.com/Reveal/RevealWebHead800wht.png'
 ---
 
-![img](https://www.designsforvision.com/Reveal/RevealWebHead800wht.png)
-
-![img](https://www.designsforvision.com/Reveal/RestMouthWHT300px.jpg)
+![img](https://www.designsforvision.com/Reveal/RevealWebHead800wht.png) ![img](https://www.designsforvision.com/Reveal/RestMouthWHT300px.jpg)
 
 ##### "Light Up" the oral cavity like never before
 

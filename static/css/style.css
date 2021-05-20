@@ -49,10 +49,25 @@ body {
   max-width: 968px;
 }
 
-img {
+img:not(.carousel img) {
   width: 100%;
+  max-width: 400px;
   height: auto;
 }
+
+a {
+  color: #009aea;
+}
+
+.dental-literature-card card img {
+  width: 100%;
+  max-width: 15px;
+  height: auto;
+}
+
+/* .carousel img {
+  max-width: 100;
+} */
 
 h5 {
   color: #2e4bf8;
