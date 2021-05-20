@@ -10,7 +10,7 @@ title: News and Events
 - [Award Winning products & frame selection](https://www.designsforvision.com/LitPDFs/DentRealityFrame.pdf)
 - There more to Magnification than Meets the eye
 
-- Surgical Literature
+- [Surgical Literature](/surgical/magnification/Surgical-Literature)
 
   - [Surgical Magnification](/surgical/magnification/)
   - [Reveal FGS:](/dental/new-reveal/)
