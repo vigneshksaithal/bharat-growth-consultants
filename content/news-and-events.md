@@ -15,7 +15,7 @@ title: News and Events
   - [Surgical Magnification](/surgical/magnification/)
   - [Reveal FGS:](/surgical/new-reveal/)
   - [LED Daylite with New Hdi Technology](/surgical/led-headlights/new-daylite-hdi/)
-  - [New Modular LED Daylite Nanocam with DBR software](/surgical/nanocam-hdi.md/led-daylite-wireless-ir-hdi-procedural-light/)
+  - [New Modular LED Daylite Nanocam with DBR software](/surgical/led-headlights/nanocam-hdi.md/)
 
 - Images
 
