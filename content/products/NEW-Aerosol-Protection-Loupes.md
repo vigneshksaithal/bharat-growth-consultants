@@ -1,5 +1,7 @@
 ---
 title: NEW Aerosol Protection Loupes
+image: 'https://www.designsforvision.com/DVIimg/ZienaBackside.jpg'
+short_description: 'Aerosol Protection Loupes provide adjustable spring hinges and wire core temples to ensure a secure adjustable fit.'
 show_list: true
 ---
 
