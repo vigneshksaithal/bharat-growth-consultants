@@ -34,6 +34,6 @@ shape for maximum peripheral vision
 
 available to cover extra wide panoramic field of view
 
-#### 45 Day Free Trial
+#### 
 
 ![img](https://www.designsforvision.com/DentImg/PanoCircle.png)
