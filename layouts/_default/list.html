@@ -20,7 +20,7 @@
       <ul class="navbar-nav">
         {{ range .CurrentSection.Pages }}
         <li class="nav-item">
-          <a href="{{ .URL }}" class="nav-link text-light">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}" class="nav-link text-light">{{ .Title }}</a>
         </li>
         {{ end }}
       </ul>
