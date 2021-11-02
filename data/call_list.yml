@@ -1,0 +1,24 @@
+header: Click below to call our representatives
+footer: Call Us +971 43333 444 10:00 AM to 09:00 PM Powered By WhatsApp
+call_list:
+  - title: Mr. Prem Dharamdas Punjabi
+    sub_title: Head office
+    number: +917900519055
+  - title: Mr. Jigish Modi
+    sub_title: Indian region
+    number: +919867001110
+  - title: Mr. Prem Dharamdas Punjabi
+    sub_title: UAE & Oman Region
+    number: +971565531165
+  - title: Mr. Berti Mathew
+    sub_title: Qatar Region
+    number: +97455272845
+  - title: Mr. Osama Masad
+    sub_title: Egypt & Iraq Region
+    number: +201030741250
+  - title: Mr. Sibu Geroge
+    sub_title: Bahrain Region
+    number: +97339987125
+  - title: Mr. Abdullah Shah
+    sub_title: Pakistan Region
+    number: +23212716646
