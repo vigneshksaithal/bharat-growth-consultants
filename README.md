@@ -1,6 +1,6 @@
-# bharat-growth-consultants
+# Bharat Growth Consultants
 
-# Adding new product
+## Adding new product
 
 To add new product follow these steps:
 - Open content folder and click on which category(subfolder) you want to add product.
@@ -22,7 +22,7 @@ show_list: true
   - **#####*** - for medium text size.
 - Then click on commit.
 
-# Adding images
+## Adding images
 To add an image proceed with the below steps:
 1. First get the link of the image.
 2. On your file add
