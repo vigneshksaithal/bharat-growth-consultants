@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div class="container">
+
   <!-- CAROUSEL -->
-  <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel">
+
+  <div id="carouselExampleControls" class="carousel slide py-4" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <a href="/surgical/new-reveal/">
@@ -53,14 +55,15 @@
   </div>
 
   <!-- CARDS -->
-  <h2 class="underline-text mb-3">{{ .Site.Data.cards.header }}</h2>
+
+  <h2 class="underline-text mb-4">{{ .Site.Data.cards.header }}</h2>
   <div class="row mb-3">
     {{ range $index,$val := .Site.Data.cards.cards }} {{ if le $index 3 }}
     <div class="col-sm d-flex align-content-stretch flex-wrap">
-      <div class="card flex-fill mb-3">
+      <div class="card flex-fill mb-4">
         <img src="{{ .img }}" alt="img" class="card-img-top" />
         <div class="card-body">
-          <h3 class="card-title text-center mt-2">{{ .title }}</h3>
+          <h3 class="card-title mt-2">{{ .title }}</h3>
           <p class="short-description">{{ .short_description }}</p>
           <a class="stretched-link" href="{{ .link }}"></a>
         </div>
