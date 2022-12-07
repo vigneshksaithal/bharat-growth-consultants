@@ -1,32 +1,35 @@
-<footer class="footer text-light">
+<footer class="footer text-light py-4">
   <div class="container">
-    <div class="row pt-3">
+    <div class="row">
       <div class="col-sm mb-4">
-        <h3 class="mb-2">{{ .Site.Data.footer.title }}</h3>
+        <h3 class="mb-3">{{ .Site.Data.footer.title }}</h3>
         <span class="h6">{{ .Site.Data.footer.short_description }}</span>
         <br />
         <hr />
         <div class="text-white mt-4">
           <h4 class="my-3">Contact us</h4>
+
           <!-- PHONE -->
-          <div class="my-2">
+          <div class="my-3">
             <i class="bi bi-phone me-2"></i>
             <a href="tel:{{ .Site.Data.footer.contact_phone }}">{{ .Site.Data.footer.contact_phone }}</a>
           </div>
+
           <!-- EMAIL -->
-          <div class="my-2">
+          <div class="my-3">
             <i class="bi bi-envelope me-2"></i>
             <a href="mailto:{{ .Site.Data.footer.contact_email }}">{{ .Site.Data.footer.contact_email }}</a>
           </div>
+
           <!-- ADDRESS -->
-          <div class="my-2">
+          <div class="my-3">
             <i class="bi bi-geo-alt me-2"></i>
             <a href="{{ .Site.Data.footer.contact_address_link }}">{{ .Site.Data.footer.contact_address }}</a>
           </div>
         </div>
 
         <!-- SHARE ICONS -->
-        <div class="share-icons my-3">
+        <div class="share-icons my-4">
           <a class="me-3" href="https://facebook.com/{{ .Site.Data.footer.facebook_id }}"><i
               class="bi bi-facebook"></i></a>
           <a class="me-3" href="https://instagram.com/{{ .Site.Data.footer.instagram_id }}"><i
@@ -37,12 +40,12 @@
       </div>
 
       <div class="col-sm">
-        <h3>About us</h3>
+        <h3 class="mb-3">About us</h3>
         {{ .Site.Data.footer.about_us }}
       </div>
     </div>
     <hr />
-    <div class="row pb-3">
+    <div class="row">
       <div class="col text-center">
         <p>{{ .Site.Data.footer.copyright }}</p>
         <span>{{ .Site.Data.footer.end_text }}</span>
