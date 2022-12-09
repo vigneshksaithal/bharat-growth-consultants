@@ -49,8 +49,30 @@ body {
   max-width: 968px;
 }
 
+img:not(.carousel img) {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+a {
+  color: #009aea;
+}
+
+.dental-literature-card card img {
+  width: 100%;
+  max-width: 15px;
+  height: auto;
+}
+
+h5 {
+  color: #2e4bf8;
+}
+
 .list-navbar {
-  background-color: #009aea;
+  background-color: #2e4bf8;
+  font-size: 14px;
+  color: #fff;
 }
 
 .whatsapp-btn {
@@ -131,7 +153,7 @@ h2 {
       transparent 57%,
       transparent 100%
     ),
-    linear-gradient(90deg, rgb(46, 75, 248), rgb(166, 255, 237));
+    linear-gradient(90deg, hsl(231, 94%, 58%), rgb(166, 255, 237));
 }
 
 p {
@@ -147,7 +169,8 @@ p {
 }
 
 .underline-text {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   text-decoration-thickness: 6px;
   color: #009aea;
 }
