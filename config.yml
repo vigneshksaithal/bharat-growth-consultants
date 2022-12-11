@@ -1,0 +1,16 @@
+baseURL: 'http://bharatgrowthconsultants.com/'
+languageCode: 'en-us'
+title: 'Bharat growth Consultants'
+
+params:
+  - siteName: 'Bharat growth Consultants'
+  - theme: 'white'
+
+buttonLink: 'https://wa.me/919353924958'
+buttonText: 'CONTACT US'
+description: 'Add inventory, generate bills & see reports within seconds using Vipatra accounting software.'
+hero1: 'Digitalizing'
+hero1Color: 'info'
+hero2: 'Canteens, Restaurants & more'
+
+hero3: 'Have questions? Contact us now!'
