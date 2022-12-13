@@ -15,9 +15,9 @@ LED DayLite® WireLess headlights are equipped with HDi's advanced photonic desi
 
 #### LED DayLite®
 
-###### WireLess Mini HDi
+##### WireLess Mini HDi
 
-###### High Definition Imaging – HDi:
+###### High Definition Imaging – HDi
 
 Uniform light distribution with 45% more light
 

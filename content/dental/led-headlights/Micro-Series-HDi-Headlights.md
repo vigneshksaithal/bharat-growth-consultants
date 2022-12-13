@@ -25,7 +25,7 @@ clips onto your existing loupes
 
 with up to 10 hour run time per pack and low battery indication
 
-##### Simple One-Touch Operation:
+##### Simple One-Touch Operation
 
 55,000 lux high intensity, 30,000 lux medium intensity
 
@@ -44,7 +44,7 @@ your movement
 Lightweight, Modular Design
 clips onto your existing loupes
 
-##### Simple One-Touch Operation:
+##### Simple One-Touch Operation
 
 55,000 lux high intensity, 30,000 lux medium intensity
 
@@ -52,7 +52,7 @@ clips onto your existing loupes
 
 with up to 10 hour run time per pack and low battery indication
 
-##### Patented Technology:
+##### Patented Technology
 
 RE46,463
 10,667,357
