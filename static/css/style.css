@@ -78,56 +78,11 @@ h2 {
 
 .theme-navbar,
 .footer {
-  background-image: radial-gradient(circle at 82% 60%,
-      rgba(59, 59, 59, 0.06) 0%,
-      rgba(59, 59, 59, 0.06) 69%,
-      transparent 69%,
-      transparent 100%),
-    radial-gradient(circle at 36% 0%,
-      rgba(185, 185, 185, 0.06) 0%,
-      rgba(185, 185, 185, 0.06) 59%,
-      transparent 59%,
-      transparent 100%),
-    radial-gradient(circle at 58% 82%,
-      rgba(183, 183, 183, 0.06) 0%,
-      rgba(183, 183, 183, 0.06) 17%,
-      transparent 17%,
-      transparent 100%),
-    radial-gradient(circle at 71% 32%,
-      rgba(19, 19, 19, 0.06) 0%,
-      rgba(19, 19, 19, 0.06) 40%,
-      transparent 40%,
-      transparent 100%),
-    radial-gradient(circle at 77% 5%,
-      rgba(31, 31, 31, 0.06) 0%,
-      rgba(31, 31, 31, 0.06) 52%,
-      transparent 52%,
-      transparent 100%),
-    radial-gradient(circle at 96% 80%,
-      rgba(11, 11, 11, 0.06) 0%,
-      rgba(11, 11, 11, 0.06) 73%,
-      transparent 73%,
-      transparent 100%),
-    radial-gradient(circle at 91% 59%,
-      rgba(252, 252, 252, 0.06) 0%,
-      rgba(252, 252, 252, 0.06) 44%,
-      transparent 44%,
-      transparent 100%),
-    radial-gradient(circle at 52% 82%,
-      rgba(223, 223, 223, 0.06) 0%,
-      rgba(223, 223, 223, 0.06) 87%,
-      transparent 87%,
-      transparent 100%),
-    radial-gradient(circle at 84% 89%,
-      rgba(160, 160, 160, 0.06) 0%,
-      rgba(160, 160, 160, 0.06) 57%,
-      transparent 57%,
-      transparent 100%),
-    linear-gradient(90deg, hsl(231, 94%, 58%), rgb(166, 255, 237));
+  background-image: radial-gradient(circle at center center, transparent, rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 2px, transparent 2px, transparent 10px, rgb(33, 33, 33) 10px, rgb(33, 33, 33) 11px, transparent 11px, transparent 21px), repeating-linear-gradient(45deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .card a {
