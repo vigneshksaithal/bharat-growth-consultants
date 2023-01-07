@@ -22,7 +22,7 @@ show_list: true
 - To style the texts use "#" before the text.
   - **#** - for largest text size.
   - **##** - for large text size.
-  - **#####*** - for medium text size.
+  - **#####** - for medium text size.
 - Then click on commit.
 
 ## Adding images
